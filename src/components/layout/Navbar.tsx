@@ -112,8 +112,8 @@ const Navbar = ({ darkMode, toggleDarkMode }: NavbarProps) => {
                 onClick={() => setIsNotificationOpen(!isNotificationOpen)}
                 className={`relative transition-all duration-300 ${
                   isNotificationOpen 
-                    ? 'bg-primary/20 scale-110 shadow-glow' 
-                    : 'glass-button animate-pulse-glow hover:scale-105'
+                    ? 'glass-button scale-110 shadow-glow backdrop-blur-md bg-glass/90' 
+                    : 'bg-primary/20 animate-pulse-glow hover:scale-105'
                 }`}
               >
                 <Bell className="w-5 h-5" />
