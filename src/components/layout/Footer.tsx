@@ -110,7 +110,7 @@ const Footer = () => {
           </div>
 
           <div className="text-center text-muted-foreground text-sm mt-8">
-            © 2024 CollegeHub. All rights reserved. Built for the next generation of learners.
+            © 2025 CollegeHub. All rights reserved. Built for the next generation of learners.
           </div>
         </div>
       </div>
